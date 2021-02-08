@@ -107,7 +107,7 @@ header .profile-image:hover {
 .experience-card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 70%;
+  max-width: 800px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -124,6 +124,27 @@ header .profile-image:hover {
   color: #ff9904;
   transition: .3s;
 }
+.hiking {
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.pup { 
+  float: right;  
+  margin: 5px; 
+  max-width: 50%;
+} 
+.athena-card { 
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 60%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+} 
 
 ul.skills {
   padding: 0;
